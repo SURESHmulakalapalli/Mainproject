@@ -15,5 +15,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="D:/mysql-connector-java-8.0.11.jar"/>
 	<classpathentry kind="lib" path="D:/protobuf-java-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Happy/Downloads/jar_files/protobuf-java-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Happy/Downloads/jar_files/mysql-connector-java-8.0.11.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
