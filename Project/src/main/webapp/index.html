@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login or Registration</title>
+<style>
+h1{
+text-align:center;
+font-size:50px;
+text-decoration:underline;
+}
+
+body{
+background-image:url(home.jpg);
+background-size:cover;
+}
+h1{
+text-align:"center";
+}
+</style>
+<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="Styles/Register.css">
+
+</head>
+<body>
+<h1 
+ id ="heading">Welcome to Task Toursim portal
+</h1>
+<div class="container">
+  
+  <form name="registration" class="registartion-form" onsubmit="return formValidation()" method="post" action="register">
+    <table>
+      <tr>
+      	<td><i class="fa fa-solid fa-user"></i></td>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" name="name" id="name" placeholder="your name" required></td>
+      </tr>
+      <tr>
+      	<td><i class="fa fa-solid fa-eye-slash"></i></td>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" name="password" id="password" required></td>
+      </tr>
+      <tr>
+     	<td><i class="fa fa-solid fa-envelope"></i></td> 
+        <td><label for="email">Email:</label></td>
+        <td><input type="text" name="Email" id="email" placeholder="your email" required></td>
+      </tr>
+      
+      <tr>
+      	<td><i class="fa fa-solid fa-phone"></i></td>
+        <td><label for="phoneNumber">Phone Number:</label></td>
+        <td><input type="number" name="phoneno" id="phoneNumber" required></td>
+      </tr>
+      <tr>
+      	<td><i class="fa fa-solid fa-group"></i></td>
+        <td><label for="gender">Gender:</label></td>
+        <td>Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+          Other: <input type="radio" name="gender" value="other"></td>
+      </tr>
+
+      <tr>
+        <td colspan="3"><input type="submit" class="submit" value="Register" onclick="showMessage()"/></td>
+        
+      </tr>
+    </table>
+  </form>
+  <br>
+  <div id="button"><p>For Login click here--><button onclick="location.href='login.html';" >Login</button></p></div>
+</div>
+
+
+</script>
+</body>
+</html>
